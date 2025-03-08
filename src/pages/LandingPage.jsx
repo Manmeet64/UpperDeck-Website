@@ -10,7 +10,7 @@ const LandingPage = () => {
     <div className={styles.container}>
       <Navbar />
       
-      <main className={styles.heroSection} style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/public/image3.jpg')` }}>
+      <main className={styles.heroSection} style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/image3.jpg')` }}>
         <motion.div 
           className={styles.heroContent}
           initial={{ opacity: 0, y: 20 }}
