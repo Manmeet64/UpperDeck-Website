@@ -1,0 +1,197 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.heroSection {
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  position: relative;
+}
+
+.heroContent {
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.heroTitle {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-family: 'Metalform', sans-serif;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+}
+
+.policySection {
+  background-color: white;
+  padding: 4rem 0;
+  flex: 1;
+  width: 100%;
+}
+
+.policyContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 5vw, 2rem);
+  width: 90%;
+}
+
+.policyContent section {
+  margin-bottom: 3rem;
+}
+
+.policyContent h2 {
+  color: #844F09;
+  font-size: clamp(1.5rem, 3vw, 1.8rem);
+  margin-bottom: 1rem;
+  font-family: 'Metalform', sans-serif;
+}
+
+.policyContent p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: clamp(1.1rem, 2vw, 1rem);
+}
+
+.policyContent ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.policyContent li {
+  color: #333;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+}
+
+.policyContent a {
+  color: #844F09;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.policyContent a:hover {
+  text-decoration: underline;
+}
+
+.contactInfo {
+  background-color: #f9f9f9;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.thankYou {
+  text-align: center;
+  font-style: italic;
+  margin-top: 3rem;
+  color: #844F09;
+  font-weight: 500;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+}
+
+/* Large Screens */
+@media (min-width: 1440px) {
+  .heroSection {
+    height: 80vh;
+  }
+
+  .policyContent {
+    max-width: 1000px;
+  }
+}
+
+/* Medium Screens */
+@media (max-width: 1024px) {
+  .heroSection {
+    height: 65vh;
+    background-attachment: scroll;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .heroSection {
+    height: 60vh;
+    margin-top: 60px;
+  }
+
+  .heroContent {
+    padding: 1.5rem;
+  }
+
+  .policySection {
+    padding: 3rem 0;
+  }
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+  .heroSection {
+    height: 100vh;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+  .heroSection {
+    height: 50vh;
+    margin-top: 60px;
+  }
+
+  .heroContent {
+    padding: 1rem;
+  }
+
+  .policyContent section {
+    margin-bottom: 2rem;
+  }
+
+  .contactInfo {
+    padding: 1rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 320px) {
+  .heroSection {
+    height: 45vh;
+  }
+
+  .heroTitle {
+    font-size: clamp(2rem, 5vw, 2.5rem);
+  }
+}
+
+/* For devices with height less than 600px */
+@media (max-height: 600px) {
+  .heroSection {
+    height: 100vh;
+  }
+}
+
+/* Fix for iOS Safari 100vh issue */
+@supports (-webkit-touch-callout: none) {
+  .heroSection {
+    height: -webkit-fill-available;
+  }
+}
