@@ -9,7 +9,7 @@ const Privacy = () => {
     <div className={styles.container}>
       <Navbar />
       
-      <main className={styles.heroSection} style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/image5.jpg')` }}>
+      <main className={styles.heroSection} style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/image5.JPG')` }}>
         <motion.div 
           className={styles.heroContent}
           initial={{ opacity: 0, y: 20 }}
