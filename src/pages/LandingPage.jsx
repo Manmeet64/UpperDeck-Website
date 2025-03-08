@@ -97,32 +97,32 @@ const LandingPage = () => {
         <div className={styles.gallery}>
           {[
             { 
-              img: "/public/image3.jpg", 
+              img: "/image3.jpg", 
               title: "Main Dining Area",
               desc: "Experience fine dining in our elegantly designed main hall"
             },
             { 
-              img: "/public/image7.jpg", 
+              img: "/image7.jpg", 
               title: "Lounge Space",
               desc: "Unwind in our sophisticated lounge with panoramic views"
             },
             { 
-              img: "/public/image8.jpg", 
+              img: "/image8.jpg", 
               title: "Outdoor Terrace",
               desc: "Enjoy alfresco dining under the stars"
             },
             { 
-              img: "/public/image4.jpg", 
+              img: "/image4.jpg", 
               title: "Private Dining",
               desc: "Intimate spaces for special occasions"
             },
             { 
-              img: "/public/image5.jpg", 
+              img: "/image5.jpg", 
               title: "Bar Area",
               desc: "Expertly crafted cocktails in a modern setting"
             },
             { 
-              img: "/public/image6.jpg", 
+              img: "/image6.jpg", 
               title: "Event Space",
               desc: "Perfect venue for celebrations and corporate events"
             }
