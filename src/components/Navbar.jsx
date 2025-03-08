@@ -15,7 +15,7 @@ const Navbar = () => {
         className={styles.logo}
         whileHover={{ scale: 1.02 }}
       >
-        <img src="/public/logo3.png" alt="UpperDeck Logo" className={styles.logoImage} />
+        <img src="/logo3.png" alt="UpperDeck Logo" className={styles.logoImage} />
       </motion.div>
       <div className={styles.navLinks}>
         <motion.div whileHover={{ scale: 1.1 }}>
