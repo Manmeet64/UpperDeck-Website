@@ -50,8 +50,8 @@ const Footer = () => {
         </div>
         <div className={styles.footerContact}>
           <h3>Contact Us</h3>
-          <p>Nerul, Navi Mumbai</p>
-          <p>Phone: YOUR_PHONE_NUMBER</p>
+          <p>Seawoods, T-25-30, 3rd Floor, Centurion Mall, Sector 19A Nerul Rd, Navi Mumbai, Maharashtra 400706</p>
+          <p>Phone:09320725000</p>
         </div>
       </div>
     </footer>
