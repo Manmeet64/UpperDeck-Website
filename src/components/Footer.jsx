@@ -20,7 +20,7 @@ const Footer = () => {
               <span>WhatsApp</span>
             </motion.a>
             <motion.a 
-              href="https://facebook.com/YOUR_FACEBOOK" 
+              href="https://www.facebook.com/profile.php?id=100010730886922" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -29,7 +29,7 @@ const Footer = () => {
               <span>Facebook</span>
             </motion.a>
             <motion.a 
-              href="https://instagram.com/YOUR_INSTAGRAM" 
+              href=" https://www.instagram.com/upperdeck.official/" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -38,7 +38,7 @@ const Footer = () => {
               <span>Instagram</span>
             </motion.a>
             <motion.a 
-              href="https://goo.gl/maps/YOUR_GOOGLE_MAPS_LINK" 
+              href="https://g.co/kgs/LtLQd21" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
