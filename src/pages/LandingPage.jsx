@@ -97,7 +97,7 @@ const LandingPage = () => {
         <div className={styles.gallery}>
           {[
             { 
-              img: "/image3.JPG", 
+              img: "/banquet.jpg", 
               title: "Banquet Hall",
               desc: "Experience fine dining in our elegantly designed main hall"
             },
