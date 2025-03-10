@@ -98,7 +98,7 @@ const LandingPage = () => {
           {[
             { 
               img: "/image3.JPG", 
-              title: "Main Dining Area",
+              title: "Banquet Hall",
               desc: "Experience fine dining in our elegantly designed main hall"
             },
             { 
@@ -113,11 +113,11 @@ const LandingPage = () => {
             },
             { 
               img: "/image4.JPG", 
-              title: "Private Dining",
+              title: "Indoor Dining",
               desc: "Intimate spaces for special occasions"
             },
             { 
-              img: "/image5.JPG", 
+              img: "/image3.JPG", 
               title: "Bar Area",
               desc: "Expertly crafted cocktails in a modern setting"
             },
